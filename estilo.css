@@ -1,0 +1,628 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.navbar-brand{
+    margin-right: 8rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 4rem;
+    font-size: 18px;
+}
+
+.btn{
+    border-radius: 5px;
+    border-color: #585376;
+    color: #585376;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #585376;
+    outline: #585376;
+}
+
+.lead{
+    font-style: italic;
+}
+
+.jumbotron{
+    background: linear-gradient(50deg, #3a0ca3, #9d4edd);
+}
+
+/* Banner */
+
+.banner{
+    padding: 150px 0 80px;
+}
+
+.display-1{
+    font-family: 'Gochi Hand', cursive;
+    font-weight: 400;
+    font-size: 4.8rem;
+}
+
+.goc{
+    font-family: 'Gochi Hand', cursive;
+}
+
+/* About */
+
+.obj-cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-item{
+    height: 800px;
+}
+
+.robo{
+    font-family: 'Roboto', sans-serif;
+}
+
+.rob{
+    font-family: 'Roboto', sans-serif;
+}
+
+.mr-3{
+    width: 75px;
+    height: 75px;
+}
+
+.about-img{
+    height: 725px;
+    padding-left: 43px;
+    margin: 0 auto;
+}
+
+/* Contato */
+
+.form-control{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    margin-bottom: 20px;
+}
+
+textarea.form-control{
+    height: 100px;
+}
+
+.form-btn{
+    display: inline-block;
+}
+
+.form-img{
+    height: 350px;
+    margin-left: 115px;
+    margin-top: -14px;
+}
+
+.play{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.redes{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.btn-social{
+    display: block;
+    width: 75px;
+    height: 75px;
+    margin: 0 5px;
+    line-height: 85px;
+    border-radius: 25%;
+    margin-left: 50px;
+}
+
+.fa-brands{
+    font-size: 30px;
+}
+
+/* Preço */
+
+.position-relative{
+    position: relative;
+}
+
+.product-device{
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    /* -webkit-transform: rotate(30deg); */
+    transform: rotate(30deg);
+}
+
+.product-device-2{
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+}
+
+.album{
+    background: url(background/colorful-abstract-watercolor-circles-design-background-illustration.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.illust-text{
+    color: #e76f51;
+}
+
+/* Footer */
+
+.rodape{
+    background: #000;
+}
+
+/* ------ Método "Mobile First" ------ */
+
+/* Padrão */ 
+@media only screen and (min-width: 320px) {
+
+    /* Banner */
+
+    .display-1{
+        font-size: 3.8rem;
+    }
+
+    .cole{
+        font-size: 2.8rem;
+    }
+
+    .lead{
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+
+    .button{
+        height: 60px;
+        width: 100%;
+        padding-left: 55px;
+    }
+
+    .ifram{
+        width: 100%;
+    }
+
+    /* About */
+
+    .carousel-item{
+        height: 300px;
+    }
+
+    .display-3{
+        font-size: 3.0rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    .about-img{
+        height: 600px;
+        padding-left: 35px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    /* Preço */
+
+    .comi{
+        padding-top: 50px;
+    }
+
+    .illust-text{
+        font-size: 2.8rem;
+    }
+
+    /* Contato */
+
+    .form-img{
+        margin: 0 0 0 22px;
+        height: 270px;
+    }
+
+    .btn-social{
+        /* display: block; */
+        width: 35px;
+        height: 35px;
+        margin: 0 auto;
+        margin-right: 25px;
+        line-height: 38px;
+        border-radius: 25%;
+        margin-left: 16px;
+    }
+
+    .fa-brands{
+        font-size: 23px;
+    }
+}
+
+/* Dispositivos Pequenos, SmartPhones */ 
+@media only screen and (min-width: 426px) {
+
+    /* Banner */
+    
+    .button{
+        height: 60px;
+        width: 100%;
+        padding-left: 105px;
+    }
+
+    .cole{
+        font-size: 3.2rem;
+    }
+
+    /* Preço */
+
+    .illust-text{
+        font-size: 3rem;
+    }
+
+    /* About */
+
+    .obj-cover{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .carousel-item{
+        height: 400px;
+    }
+
+    /* Contato */
+
+    .form-img{
+        margin: 0 0 0 100px;
+        height: 280px;
+    }
+
+    .btn-social{
+        /* display: block; */
+        width: 45px;
+        height: 45px;
+        margin: 0 auto;
+        margin-right: 28px;
+        line-height: 50px;
+        border-radius: 25%;
+        margin-left: 16px;
+    }
+
+    .fa-brands{
+        font-size: 27px;
+    }
+}
+
+/* Dispositivos Pequenos (telefones em modo paisagem, com 576px ou mais) */
+@media only screen and (min-width: 576px) {
+
+    /* Banner */
+
+    .display-1{
+        font-size: 4.2rem;
+    }
+
+    .button{
+        height: 60px;
+        width: 100%;
+        padding-left: 165px;
+    }
+    
+    .ifram{
+        width: 510px;
+    }
+
+    /* About */
+
+    .obj-cover{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .carousel-item{
+        height: 450px;
+    }
+
+    /* Preço */
+
+    .card-deck{
+        display: block;     
+    }
+
+    /* Contato */
+
+    .form-img{
+        margin: 0 0 0 170px;
+        height: 330px;
+    }
+
+    .btn-social{
+        /* display: block; */
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+        margin-right: 36px;
+        line-height: 69px;
+        border-radius: 25%;
+        margin-left: 25px;
+    }
+
+    .fa-brands{
+        font-size: 32px;
+    }
+}
+
+/* Dispositivos Pequenos, Tablets */
+@media only screen and (min-width: 768px) {
+
+    /* Banner */
+
+    .banner{
+        padding: 150px 0 80px;
+    }
+
+    .display-1{
+        font-family: 'Gochi Hand', cursive;
+        font-weight: 400;
+        font-size: 4.8rem;
+    }
+
+    .rob {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .button{
+        height: 60px;
+        width: 100%;
+        padding-left: 255px;
+    }
+
+    .ifram{
+        width: 690px;
+        height: 500px;
+    }
+
+    /* Preço */
+
+    .illust-text{
+        font-size: 4.3rem;
+    }
+
+    /* About */
+
+    .about-img {
+        height: 635px;
+        padding-left: 205px;
+    }
+
+    .obj-cover{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .carousel-item{
+        height: 550px;
+    }
+
+    /* Preço */
+
+    .d-md-block{
+        display: block;
+    }
+
+    /* Contato */
+
+    .form-img{
+        margin: 0 0 0 325px;
+        height: 330px;
+    }
+
+    .btn-social{
+        /* display: block; */
+        width: 65px;
+        height: 65px;
+        margin: 0 auto;
+        margin-right: 45px;
+        line-height: 77px;
+        border-radius: 25%;
+        margin-left: 40px;
+    }
+
+    .fa-brands{
+        font-size: 35px;
+    }
+}
+
+/* Dispositivos Médios, Desktops */
+@media only screen and (min-width: 992px) {
+
+    /* Banner */
+
+    .banner{
+        padding: 150px 0 80px;
+    }
+
+    .display-1{
+        font-family: 'Gochi Hand', cursive;
+        font-weight: 400;
+        font-size: 4.8rem;
+    }
+
+    .rob {
+        font-family: 'Roboto', sans-serif;
+      }
+
+    .goc{
+        font-family: 'Gochi Hand', cursive;
+    }
+
+    .button{
+        padding: 0;
+    }
+
+    .ifram{
+        width: 500px;
+    }
+
+    /* Preço */
+
+    .illust-text{
+        font-size: 4.5rem;
+    }
+
+    /* About */
+
+    .about-img{
+        height: 635px;
+        padding-left: 40px;
+    }
+
+    .obj-cover{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .carousel-item{
+        height: 600px;
+    }
+
+    /* Preço */
+
+    .card-deck{
+        display: flex;
+    }
+
+    /* Contato */
+
+    .form-img{
+        margin: 0 0 0 100px;
+        height: 350px;
+    }
+
+    .btn-social{
+        display: block;
+        width: 75px;
+        height: 75px;
+        margin: 0 30px;
+        line-height: 90px;
+        border-radius: 25%;
+    }
+    
+    .fa-brands{
+        font-size: 40px;
+    }
+}
+
+/* Dispositivos Grandes, Telas Amplas */
+@media only screen and (min-width: 1200px) {
+
+    /* Banner */
+
+    .banner{
+        padding: 150px 0 80px;
+    }
+
+    .display-1{
+        font-family: 'Gochi Hand', cursive;
+        font-weight: 400;
+        font-size: 4.8rem;
+    }
+
+    .goc{
+        font-family: 'Gochi Hand', cursive;
+    }
+
+    .rob {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .ifram{
+        width: 550px;
+        height: 350px;
+    }
+
+    /* Preço */
+
+    .illust-text{
+        font-size: 4.8rem;
+    }
+
+    /* About */
+
+    .obj-cover{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .carousel-item{
+        height: 800px;
+    }
+
+    .robo{
+        font-family: 'Roboto', sans-serif;
+        font-size: 5.5rem;
+    }
+
+    .mr-3{
+        width: 75px;
+        height: 75px;
+    }
+
+    .about-img{
+        height: 725px;
+        padding-left: 43px;
+        margin: 0 auto;
+    }
+
+    /* Contato */
+
+    .form-img{
+        height: 350px;
+        margin-left: 115px;
+        margin-top: -14px;
+    }
+
+    .btn-social{
+        display: block;
+        width: 75px;
+        height: 75px;
+        margin: 0 30px;
+        line-height: 90px;
+        border-radius: 25%;
+        margin-left: 50px;
+    }
+    
+    .fa-brands{
+        font-size: 40px;
+    }
+}
